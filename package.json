@@ -1,0 +1,18 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kidonKim/typechain.git",
+  "author": "kidonKim <ilhvm12@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch src/index.ts --onSuccess \"node src/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^3.8.3"
+  }
+}
